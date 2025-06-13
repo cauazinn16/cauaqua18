@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulário</title>
+<style type="text/css">
+body {
+    background-color: #3CFF3A;
+}
+</style>
+</head>
+
+<body>
+	<form><fieldset><legend>Informações Principais</legend>
+		
+	<label>Nome Completo: </label>	
+		<input type="text" required="required" placeholder="digite seu nome completo" size="70" maxlength="70">
+	  <br> <br>
+		<label>E-mail: </label>
+		<input type="email" required="required" placeholder="email@servidor.com" size="30" maxlength="30">
+        <br> <br>
+<label>Senha: </label><input type="password" required="required" placeholder="*******" size="30" maxlength="30">
+<br> <br>
+<label> Celular: </label><input type="text" required="required" placeholder="(DD) 9000-0000" size="20" maxlength="14">
+		<br> <br>
+<label>Mensagem: </label> <br>
+<textarea name="textarea" maxlength="600" id="textarea">digite sua mensagem
+</textarea>
+		<br> <br>
+		<label>O que gosta de fazer:</label>
+		
+		<input type="checkbox">
+		Ler livros<input type="checkbox">Ver filmes
+		<input type="checkbox">Praticar esportess<input type="checkbox">Estudar <br><br>
+		<label>Sexo: </label><input name="sexo"type="radio">Feminino
+<input name="sexo"type="radio">Masculino
+		<br> <br>
+<label>Cidade - UF: </label><input type="text" placeholder="digite sua cidade" size="40" maxlength="40">
+		- <select>
+		  <option>SP</option>
+		  <option>RJ</option>
+		  <option>MG</option>
+		</select>
+		<br> <br> <br>
+		'<input type="submit" formaction="confirmado.html" value="Cadastrar"> <input type="reset" value="Cancelar" formaction="index.html">'
+		
+		
+		
+		
+</body>
+</html>
